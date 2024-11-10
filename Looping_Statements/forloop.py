@@ -33,6 +33,15 @@ fruits=["apple","banana","kiwi","cherry"]
 #     print(i)
 
 #range with starting value and also used if condition to print even no's:
-for i in range(2,10):
-    if(i%2==0):
-        print("Even no's from 2 to 10 are: ",i)
+# for i in range(2,10):
+#     if(i%2==0):
+#         print("Even no's from 2 to 10 are: ",i)
+
+#Nested for loop:
+
+adj=["red","big","tasty"]
+fruit=["apple","mango","kiwi"]
+
+for x in adj:
+    for i in fruit:
+        print(x,i)
