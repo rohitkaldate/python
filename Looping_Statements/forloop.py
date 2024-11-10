@@ -45,3 +45,4 @@ fruit=["apple","mango","kiwi"]
 for x in adj:
     for i in fruit:
         print(x,i)
+
