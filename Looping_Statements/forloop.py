@@ -7,8 +7,14 @@ fruits=["apple","banana","kiwi","cherry"]
 
 
 #Break statement in for loop:
-for i in fruits:
-    print(i)
+# for i in fruits:
+#     print(i)
 
-    if i=="kiwi":
+#     if i=="banana":
+#         break
+
+#print after break:
+for x in fruits:
+    if x=="cherry":
         break
+    print(x)
