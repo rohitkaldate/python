@@ -20,9 +20,19 @@
 # name("Ajit") #Calling function with single argument
 
 ##Calling function using 2 arguments:
+# def data(fname,lname):
+#     print(fname + " " +lname)
+# data("Rohit","Kaldate")
+# data("Amit","Kaldate")
+# data("Ajit","Kaldate")
 
-def data(fname,lname):
-    print(fname + " " +lname)
-data("Rohit","Kaldate")
-data("Amit","Kaldate")
-data("Ajit","Kaldate")
+#Arbitary arguments:
+# def children(*kids):
+#     print("Youngest brother is: "+kids[2])
+# children("Rohit","amit","Ajit")
+
+#Keyword arguments : Sending arguments with the key
+
+def kids(child2,child1,child3):
+    print("Youngest child is:"+ child3)
+kids(child1="Rohit",child3="amit",child2="Ajit")
