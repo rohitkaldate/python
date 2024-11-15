@@ -46,6 +46,7 @@
 # my_func("USA")
 # my_func("UK")
 
+from perf_test_main import Test
 
 ## Passing a list as an argument:
 def my_function(food):
@@ -54,3 +55,5 @@ def my_function(food):
     
 fruits=["Apple","Mango","Kiwi","Cherry"]
 my_function(fruits)
+
+
