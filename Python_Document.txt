@@ -1,0 +1,66 @@
+Python:
+
+':' is termed as "doc string"
+
+**class: acts as blue print plan/model/design
+**object: physical existence of the class
+
+Ex1: Scenario is to build building for customers
+     class :Plan 
+     object: Building
+
+**How to define class in python?
+
+**Syntax:
+class class_name:
+	''' doc string ''':(Description of the class or code)
+	properties(variables)
+	methods
+
+** In python OOPs 3 types of variables:
+1. Instance variables(object level variables)
+2. Static Variables(Class Level variables)
+3. Local Variables(method level variables)
+
+
+** 3 types of method allowed in python class:
+1.Instance Method
+2.Class Method
+3.Static Method
+
+** Reference Variable:
+	-It can be used to refer the object.
+	- By using reference variable we can invoke functionality of object.
+	-For single object , there may be multiple references
+
+Ex: Assume TV is an object and to operate the TV we require the remote and that remote we called as reference object.
+
+EX: 
+class Student:
+	def __init__(self):  ## This is constructor method
+		self.name='Rohit'
+		self.roll=101
+		self.marks=90
+	def talk(self):
+		print("Hello I'm:",self.name)
+		print("Roll no is:",self.roll)
+		print("My marks are:",self.marks)
+s=Student()
+print(s.name)
+print(s.roll)
+print(s.marks)
+## Call method from class using reference variable 
+s.talk()
+
+
+
+
+
+
+
+
+
+
+
+
+
