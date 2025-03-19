@@ -1,4 +1,4 @@
-fruits=["apple","banana","kiwi","cherry"]
+# fruits=["apple","banana","kiwi","cherry"]
 # for x in fruits:
 #     print(x)
 
@@ -71,18 +71,36 @@ fruits=["apple","banana","kiwi","cherry"]
 #     print(' '*(n-i-1)+"* "*(i+1))  # print spaces and then stars
 
 #List of n Prime no:
+# n=int(input("Enter no: "))
+# count=0
+# n1=2
+# while True:
+#     x=True
+#     for i in range(2,n1//2+1):
+#         if n1%i==0:
+#             x=False
+#             break
+#     if x==True:
+#         print(n1)
+#         count=count+1
+#     if count==n:
+#         break
+#     n1=n1+1
+
 n=int(input("Enter no: "))
-count=0
-n1=2
-while True:
-    x=True
-    for i in range(2,n1//2+1):
-        if n1%i==0:
-            x=False
-            break
-    if x==True:
-        print(n1)
-        count=count+1
-    if count==n:
-        break
-    n1=n1+1
+
+### Nested for loop with break statement::
+
+# for i in range(n):
+#     for j in range(3):
+#         if i==j:
+#             break
+#         print(i,j)
+
+## Nested for loop with continue statement:
+
+for i in range(n):
+    for j in range(3):
+        if i==j:
+            continue
+        print(i,j)
