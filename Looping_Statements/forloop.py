@@ -99,8 +99,19 @@ n=int(input("Enter no: "))
 
 ## Nested for loop with continue statement:
 
-for i in range(n):
-    for j in range(3):
-        if i==j:
-            continue
-        print(i,j)
+# for i in range(n):
+#     for j in range(3):
+#         if i==j:
+#             continue
+#         print(i,j)
+
+### Check whether no is prime or not:::
+x=True
+for i in range(2,n):
+    if n%i==0:
+        x=False
+        break
+if x==True:
+    print("Prime")
+else:
+    print("Not prime no")
