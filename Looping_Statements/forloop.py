@@ -39,10 +39,50 @@ fruits=["apple","banana","kiwi","cherry"]
 
 #Nested for loop:
 
-adj=["red","big","tasty"]
-fruit=["apple","mango","kiwi"]
+# adj=["red","big","tasty"]
+# fruit=["apple","mango","kiwi"]
 
-for x in adj:
-    for i in fruit:
-        print(x,i)
+# for x in adj:
+#     for i in fruit:
+#         print(x,i)
 
+# print pattern in :
+# * * *
+# * * *
+# * * *
+
+# n=int(input("Enter the number: "))
+# for i in range(n):
+#     print("* "*n)
+
+
+# Print pattern like below:
+# *
+# * *
+# * * *
+# n=int(input("Enter the number: "))
+# for i in range(n):
+#     for j in range(i+1):
+#         print("* ",end="")
+#     print()
+
+# n=int(input("Enter the number: "))
+# for i in range(n):
+#     print(' '*(n-i-1)+"* "*(i+1))  # print spaces and then stars
+
+#List of n Prime no:
+n=int(input("Enter no: "))
+count=0
+n1=2
+while True:
+    x=True
+    for i in range(2,n1//2+1):
+        if n1%i==0:
+            x=False
+            break
+    if x==True:
+        print(n1)
+        count=count+1
+    if count==n:
+        break
+    n1=n1+1
