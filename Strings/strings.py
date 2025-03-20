@@ -93,4 +93,9 @@ print(s1.find('a'))
 print(s1.rfind('a'))
 print(s1.count('a'))
 
-
+print(s1.replace('a','b'))
+print(s1.upper())
+print(s1.lower())
+print(s1.swapcase())
+print(s1.title())
+print(s1.capitalize())
