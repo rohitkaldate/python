@@ -61,6 +61,36 @@ ch="Durga Software solutions"
 #     print("Both strings are not same")
 
 
-n=input("Enter string: ")
-op=n[0].upper()+n[1:len(n)-1].lower()+n[-1].upper()
-print(op)
+# n=input("Enter string: ")
+# op=n[0].upper()+n[1:len(n)-1].lower()+n[-1].upper()
+# print(op)
+
+s1=input("Enter s1: ")
+# s2=input("Enter s2: ")
+
+# # if s1==s2:
+# #     print("Equal")
+# # else:
+# #     print("Not equal")
+
+# if s1.lower() == s2.lower():
+#     print("Equal")
+# else:
+#     print("Not equal")
+
+### Reverse String:
+
+print(s1[::-1])
+print(s1.title())
+print(s1.split())
+print("".join(s1))
+
+print(s1.strip())
+print(s1.lstrip())
+print(s1.rstrip())
+
+print(s1.find('a'))
+print(s1.rfind('a'))
+print(s1.count('a'))
+
+
