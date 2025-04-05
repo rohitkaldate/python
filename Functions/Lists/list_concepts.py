@@ -1,5 +1,5 @@
 ##list Concepts::
-
+# 1. **List**: A list is a collection of items that can be of any data type,
 # # l=[]
 # l.append(10)
 # l.append(20)
