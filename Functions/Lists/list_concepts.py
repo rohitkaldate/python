@@ -149,3 +149,12 @@
 # l=[1,204,40,50,0,2,30,20,10]
 # l1=sorted(l)
 # print(l1)
+
+
+## WAP to removes the duplicate elemnts from the list
+
+l=[10,20,30,40,20,10,30,40,50,10,10,20,30,40,50,50]
+s=set(l)
+print(s)
+l1=list(s)
+print(l1)
