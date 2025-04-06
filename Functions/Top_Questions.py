@@ -20,3 +20,17 @@
 #         res=n*fact(n-1)
 #     return res
 # print(fact(n))
+
+
+###WAP to check the number is prime or not::::
+
+n = int(input("Enter no : "))
+x=True
+for i in range(2,n):
+    if n%i==0:
+        x=False
+        break
+if x==True:
+    print("Prime")
+else:
+    print("Not Prime")
