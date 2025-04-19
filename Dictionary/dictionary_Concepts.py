@@ -115,8 +115,8 @@
 
 
 ##cloning ::or copy()::
-# d1={'Durga':10,'Raja':50,'Ram':30,'Rushi':40,'Rohit':100,'Raju':24}
-# d2=d1.copy()
-# d1['rashi']=120210
-# print(d1)
-# print(d2)
+d1={'Durga':10,'Raja':50,'Ram':30,'Rushi':40,'Rohit':100,'Raju':24}
+d2=d1.copy()
+d1['rashi']=120210
+print(d1)
+print(d2)
