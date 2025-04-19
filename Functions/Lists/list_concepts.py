@@ -154,7 +154,13 @@
 ## WAP to removes the duplicate elemnts from the list
 
 l=[10,20,30,40,20,10,30,40,50,10,10,20,30,40,50,50]
-s=set(l)
-print(s)
-l1=list(s)
-print(l1)
+# s=set(l)
+# print(s)
+# l1=list(s)
+# print(l1)
+##### OR #####
+l2=[]
+for i in l:
+    if i not in l2:
+        l2.append(i)
+print(l2)
