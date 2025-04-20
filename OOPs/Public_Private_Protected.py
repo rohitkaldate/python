@@ -59,13 +59,13 @@
 # s.m2()
 
 ##Data Hiding:: hide your internal or essential data from someone.
-# class Bank:
-#     def __init__(self,total_balance):
-#         self.__balance=total_balance    ##Private member
+class Bank:
+    def __init__(self,total_balance):
+        self.__balance=total_balance    ##Private member
     
-#     def m1(self):
-#         print("Data hiding problem")
-#         print(self.__balance)
+    def m1(self):
+        print("Data hiding problem")
+        print(self.__balance)
         
-# b=Bank(100000)
-# b.m1()
+b=Bank(100000)
+b.m1()
